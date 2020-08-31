@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(53, 143, 245);
+
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+nav {
+  width: 100%;
+  height: 35px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background: rgb(167, 167, 167);
+}
+
+input {
+  float: left;
+  width: 65px;
+  height: 30px;
+  margin: 5px 0px 0px 2.5%;
+
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background: rgb(225, 225, 225);
+}
+
+button {
+  float: left;
+  width: 104px;
+  height: 30px;
+  margin: 5px 0px 0px 2.5%;
+
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid rgb(0, 255, 149);
+  background: rgb(152, 255, 198);
+}
+
+li {
+  list-style-type: none;
+  padding: 2px 0px 0px 7px;
+}
+
+.container {
+  width: 260px;
+  height: 460px;
+  border-radius: 3px;
+  margin-top: 50px;
+  background: whitesmoke;
+
+  -webkit-box-shadow: 5px 6px 12px -5px rgba(0,0,0,0.64); 
+  box-shadow: 5px 6px 12px -5px rgba(0,0,0,0.64);
+}
+
+  .container .lcd {
+    width: 95%;
+    height: 56px;
+    margin: 5px 0px 0px 2%;
+    border-radius: 2px;
+    border: 1px solid rgb(116, 199, 134);
+    background: rgb(148, 228, 165);
+  }
+
+    .container .lcd .value {
+      font-family: 'VT323', monospace;
+      padding-left: 5px;
+      font-size: 3.6rem;
+    }
+
+  .container .info {
+    float: left;
+    width: 95%;
+    height: 150px;
+    margin: 5px 0px 0px 2%;
+    border-radius: 2px;
+    border: 1px solid rgb(255, 209, 84);
+    background: rgb(253, 233, 144);
+
+    color: rgb(140, 140, 140);
+  }
+
+  .container .state {
+    float: left;
+    width: 95%;
+    height: 150px;
+    margin: 5px 0px 0px 2.5%;
+  }
+
+    .container .title {
+      font-size: 2.6rem;
+      padding: 20px 0px 20px 45px;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px;
+      background: rgb(167, 167, 167);
+    }
+
+    .container .state .bar {
+      width: 100%;
+      height: 10px;
+      border-radius: 1px;
+      background-image: linear-gradient(to right, rgb(66, 228, 66), yellow, orange, red);
+    }
+
+    .container .state .set {
+      width: 0; 
+      height: 0; 
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 10px solid rgb(140, 184, 250);
+      border-radius: 20px;
+      margin: 1px 0px 0px 0px;
+    }
+
+
